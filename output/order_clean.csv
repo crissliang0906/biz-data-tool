@@ -1,0 +1,5 @@
+﻿order_id,city,amount,status
+01,南京,120.0,paid
+02,上海,80.5,refunded
+04,杭州,45.0,paid
+06,南京,200.0,paid

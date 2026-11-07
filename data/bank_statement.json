@@ -1,0 +1,35 @@
+{
+  "account": "6222021231234567890123",
+  "mouth": "2026-10",
+  "item": [
+    {
+      "date": "10-01",
+      "category": "餐饮",
+      "amount": -45.5
+    },
+    {
+      "date": "10-02",
+      "category": "工资",
+      "amount": 12000
+    },
+    {
+      "date": "10-03",
+      "category": "餐饮",
+      "amount": -88.0
+    },
+    {
+      "date": "10-04",
+      "category": "购物",
+      "amount": -2300
+    },
+    {
+      "date": "10-05",
+      "category": "交通"
+    },
+    {
+      "date": "10-06",
+      "category": "餐饮",
+      "amount": "-32.0"
+    }
+  ]
+}

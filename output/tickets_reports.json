@@ -1,0 +1,30 @@
+{
+  "source": "ticket_raw.csv",
+  "total": 5,
+  "ok": 3,
+  "bad_row": [
+    {
+      "row": {
+        "ticket_id": "T102",
+        "agent": "小王",
+        "priority": "high",
+        "minutes": ""
+      },
+      "reason": "minutes为空"
+    },
+    {
+      "row": {
+        "ticket_id": "T103",
+        "agent": "小张",
+        "priority": "mid",
+        "minutes": "abc"
+      },
+      "reason": "minutes不是数字"
+    }
+  ],
+  "reasons": {
+    "minutes为空": 1,
+    "minutes不是数字": 1
+  },
+  "bad_rate": "40.0%"
+}

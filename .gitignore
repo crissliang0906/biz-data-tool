@@ -1,0 +1,10 @@
+#运行时自动生成的文件
+logs/
+outpus/
+__pycache__/
+
+#编辑器配置
+.idea/
+
+#课堂练习脚本
+practice/

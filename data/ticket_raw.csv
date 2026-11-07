@@ -1,0 +1,6 @@
+﻿ticket_id,agent,priority,minutes
+T100,小王,high,40
+T101,小李,low,12
+T102,小王,high,
+T103,小张,mid,abc
+T104,小李,high,95

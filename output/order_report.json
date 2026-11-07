@@ -1,0 +1,40 @@
+{
+  "source": "order_raw.csv",
+  "total": 7,
+  "ok": 4,
+  "bad_row": [
+    {
+      "row": {
+        "order_id": "03",
+        "city": "南京",
+        "amount": "abc",
+        "status": "paid"
+      },
+      "reason": "amount不是数字"
+    },
+    {
+      "row": {
+        "order_id": "05",
+        "city": "上海",
+        "amount": "",
+        "status": "paid"
+      },
+      "reason": "amount为空"
+    },
+    {
+      "row": {
+        "order_id": "07",
+        "city": "杭州",
+        "amount": "-10",
+        "status": "paid"
+      },
+      "reason": "amount为负数"
+    }
+  ],
+  "reasons": {
+    "amount不是数字": 1,
+    "amount为空": 1,
+    "amount为负数": 1
+  },
+  "bad_rate": "42.9%"
+}
