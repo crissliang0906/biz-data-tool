@@ -41,11 +41,11 @@ python main.py
 ## 示例输出
 
 ```
-2026-11-06 19:31:32,851 [WARNING] biz_tool.cleaner: 跳过一行：{'order_id': '03', 'city': '南京', 'amount': 'abc', 'status': 'paid'}，原因：amount不是数字
-2026-11-06 19:31:32,851 [WARNING] biz_tool.cleaner: 跳过一行：{'order_id': '05', 'city': '上海', 'amount': '', 'status': 'paid'}，原因：amount为空
-2026-11-06 19:31:32,852 [WARNING] biz_tool.cleaner: 跳过一行,{'order_id': '07', 'city': '杭州', 'amount': '-10', 'status': 'paid'},原因：amount为负数
-2026-11-06 19:31:32,852 [INFO] biz_tool.cleaner: <bound method CleanReport.summary of <biz_tool.report.CleanReport object at 0x000001694743E350>>
-2026-11-06 19:31:32,852 [INFO] main: 电商各城市已支付金额：{'南京': 320.0, '杭州': 45.0}
+2026-11-07 16:22:34,965 [WARNING] biz_tool.cleaner: 跳过一行：{'order_id': '03', 'city': '南京', 'amount': 'abc', 'status': 'paid'}，原因：amount不是数字
+2026-11-07 16:22:34,965 [WARNING] biz_tool.cleaner: 跳过一行：{'order_id': '05', 'city': '上海', 'amount': '', 'status': 'paid'}，原因：amount为空
+2026-11-07 16:22:34,965 [WARNING] biz_tool.cleaner: 跳过一行,{'order_id': '07', 'city': '杭州', 'amount': '-10', 'status': 'paid'},原因：amount为负数
+2026-11-07 16:22:34,965 [INFO] biz_tool.cleaner: order_raw.csv:共7条，有效4条，异常3条
+2026-11-07 16:22:34,965 [INFO] main: 电商各城市已支付金额：{'南京': 320.0, '杭州': 45.0}
 ```
 ## 后续计划
 
